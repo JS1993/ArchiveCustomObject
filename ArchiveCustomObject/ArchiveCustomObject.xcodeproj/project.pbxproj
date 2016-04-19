@@ -16,6 +16,7 @@
 		CF7C72381CC665620071B719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7C72361CC665620071B719 /* LaunchScreen.storyboard */; };
 		CF7C72431CC665620071B719 /* ArchiveCustomObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7C72421CC665620071B719 /* ArchiveCustomObjectTests.m */; };
 		CF7C724E1CC665620071B719 /* ArchiveCustomObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7C724D1CC665620071B719 /* ArchiveCustomObjectUITests.m */; };
+		CF7C725D1CC6658E0071B719 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7C725C1CC6658E0071B719 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CF7C72491CC665620071B719 /* ArchiveCustomObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiveCustomObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7C724D1CC665620071B719 /* ArchiveCustomObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveCustomObjectUITests.m; sourceTree = "<group>"; };
 		CF7C724F1CC665620071B719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7C725B1CC6658E0071B719 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CF7C725C1CC6658E0071B719 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				CF7C72391CC665620071B719 /* Info.plist */,
 				CF7C72311CC665620071B719 /* ArchiveCustomObject.xcdatamodeld */,
 				CF7C72251CC665620071B719 /* Supporting Files */,
+				CF7C725B1CC6658E0071B719 /* Person.h */,
+				CF7C725C1CC6658E0071B719 /* Person.m */,
 			);
 			path = ArchiveCustomObject;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			files = (
 				CF7C72331CC665620071B719 /* ArchiveCustomObject.xcdatamodeld in Sources */,
 				CF7C722D1CC665620071B719 /* ViewController.m in Sources */,
+				CF7C725D1CC6658E0071B719 /* Person.m in Sources */,
 				CF7C722A1CC665620071B719 /* AppDelegate.m in Sources */,
 				CF7C72271CC665620071B719 /* main.m in Sources */,
 			);
